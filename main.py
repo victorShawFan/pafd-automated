@@ -232,7 +232,7 @@ class Zlapp(Fudan):
 
             save_msg = json_loads(save.text)["m"]
             print(save_msg, '\n\n')
-            time.sleep(0.1)
+            time.sleep(4)
             if(json_loads(save.text)["e"] != 1):
                 break
 
